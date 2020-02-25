@@ -1,0 +1,44 @@
+
+body {
+		margin: 0;
+		padding: 0;
+}
+
+#canvas {
+      	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: url('../images/spaceBackGround.png');
+	background-size: cover;
+	z-index:-1;
+}
+
+#start {
+    margin-top:30%;
+    margin-left:46%;
+    position:absolute;
+    background-color:white;
+    z-index:1;
+    width:100px;
+    height:100px;
+    color:blue;
+    border:solid;
+    border-radius:30px;
+    font-family:serif;
+    font-weight:bolder;
+}
+
+#score {
+    font-family:serif;
+    font-weight:bolder;
+    position:absolute;
+    z-index:1;
+    margin:5px;
+    padding:5px;
+    display:inline-block;
+    border:solid;
+    color:black;
+    background-color: white;
+    border-radius:30px;
+    border-color:blue;
+}
